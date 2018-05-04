@@ -1,14 +1,31 @@
-#clock {
+body {
+    display: flex;
+    align-items: center;
 }
 
-#clock img {
-}
+#clock {}
 
-#hour {
-}
-
-#minute {
-}
-
+#face,
+#hour,
+#minute,
 #second {
+    position: absolute;
+}
+
+#hour,
+#minute,
+#second {
+    display: inline;
+}
+
+#hour {}
+
+#minute {}
+
+#second {}
+
+#digital {
+    position: absolute;
+    top: 75vh;
+    left: 43vw;
 }
